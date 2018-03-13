@@ -1,5 +1,6 @@
 class Solution {
 private:
+    //判断子串s是否回文
     bool judge(string s){
         int l = 0, r = s.size() - 1;
         while(l < r){

@@ -1,6 +1,8 @@
 class Solution {
 private:
     string ss;
+    //判断以mid为中心的最大回文子串长度
+    //返回最大回文子串的{起始位置,回文长度}
     vector<int> judge(int mid){
         int l = mid, r = mid;
         while (ss[r+1] && ss[r] == ss[r+1])
