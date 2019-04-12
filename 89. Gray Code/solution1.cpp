@@ -1,4 +1,4 @@
-  class Solution {
+class Solution {
 public:
     vector<int> grayCode(int n) {
         // 将结果数组初始化为0
